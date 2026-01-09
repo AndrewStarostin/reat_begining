@@ -1,9 +1,12 @@
+import Card from "./components/Card/Card";
 import "./styles.css";
 
 function Homework_02() {
     return <div className="homework_02_wrapper">
         Homework 02
-        {/*тут нужно прописывать дз*/ }
+        <Card/>
+        <Card/>
+        <Card/>
     </div>
 }
 
